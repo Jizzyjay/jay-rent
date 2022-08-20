@@ -1,13 +1,107 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,100;1,300;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,700;0,900;1,100;1,700;1,900&display=swap');
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1,h2,h3,h4,h5,h6 {
+  color: #000d6b;
+  font-weight: 600;
+  margin-bottom: 0;
 }
+
+h3,h4 {
+  font-size: 1.8rem;
+}
+
+h5,h6 {
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+a:hover {
+  color: unset;
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+}
+
+.section_title {
+  color: #000d6b;
+  masonry-auto-flow: 600;
+  font-size: 2rem;
+}
+
+.section_subtitle {
+  color: #f9a826;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.section_description {
+  color: #7c8a97;
+  font-size: .9rem;
+  line-height: 30px;
+}
+
+section {
+  padding: 50px 0;
+}
+
+.btn {
+  padding: 7px 15px;
+  background: #000d6b;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  transition: .3s;
+}
+
+.btn:hover {
+  color: #fff !important;
+  background: #000d6b;
+}
+
+@media only screen and (max-width: 768px) {
+  section {
+    padding: 30px 0;
+  }
+
+  .section_title {
+    font-size: 1.6rem;
+  }
+
+  .section_subtitle {
+    font-size: 1.1rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
