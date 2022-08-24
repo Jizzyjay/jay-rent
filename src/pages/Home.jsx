@@ -1,7 +1,6 @@
 import React from 'react'
 import HeroSlider from '../UI/HeroSlider'
 import Helmet from '../components/Helmet/Helmet'
-
 import { Container, Row, Col } from 'reactstrap'
 import FindCar from '../UI/FindCar'
 import AboutSection from '../UI/AboutSection'

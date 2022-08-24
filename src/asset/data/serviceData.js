@@ -1,4 +1,4 @@
-export default [
+const serviceData = [
     {
         id: 1,
         title: 'Intra City Tour',
@@ -39,3 +39,5 @@ export default [
         desc: 'Nullam rutrum volutpat enim, a auctor purus. Pellentesque laoreet nulla mauris, at ultrices est pretium sed. Quisque sit amet gravida orci. Quisque condimentum, libero ut ullamcorper varius, justo augue consectetur tellus, a viverra neque leo vel justo. Cras finibus gravida dignissim. Sed lacus ex, dignissim id enim vitae, ullamcorper tempus metus. Nulla facilisi'
     },
 ]
+
+export default serviceData

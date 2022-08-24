@@ -6,7 +6,7 @@ import Jaguar from '../cars/pexels-nahiyan-islam-10108560-removebg-preview.png'
 import Mercedes from '../cars/pexels-mike-b-4786752-removebg-preview.png'
 
 
-export default [
+const carData = [
     {
         id: 1,
         brand: 'Tesla',
@@ -92,3 +92,5 @@ export default [
         description: 'Nullam rutrum volutpat enim, a auctor purus. Pellentesque laoreet nulla mauris, at ultrices est pretium sed. Quisque sit amet gravida orci. Quisque condimentum, libero ut ullamcorper varius, justo augue consectetur tellus, a viverra neque leo vel justo. Cras finibus gravida dignissim. Sed lacus ex, dignissim id enim vitae, ullamcorper tempus metus. Nulla facilisi'
     }
 ]
+
+export default carData

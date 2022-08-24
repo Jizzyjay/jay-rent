@@ -8,8 +8,6 @@ import Blog from '../pages/Blog'
 import BlogDetails from '../pages/BlogDetails'
 import NotFound from '../pages/NotFound'
 
-
-
 const Router = () => {
   return (
     <Routes>
@@ -21,7 +19,6 @@ const Router = () => {
       <Route path="/blog" element={<Blog />} />
       <Route path="/blog/:slug" element={<BlogDetails />} />
       <Route path="/" element={<NotFound />} />
-
     </Routes>
   )
 }

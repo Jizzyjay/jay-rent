@@ -3,7 +3,7 @@ import drive2 from '../cars/pexels-towfiqu-barbhuiya-8556051-removebg-preview.pn
 import drive3 from '../cars/pexels-gabriel-hohol-3593923.jpg'
 
 
-export default [
+const blogData = [
     {
         id: 1, 
         title: 'Best way to drive cars',
@@ -29,3 +29,5 @@ export default [
         description: 'Aliquam massa justo, vestibulum sit amet justo varius, pretium accumsan lacus. Sed porttitor, risus in fringilla hendrerit,s ornare. Sed rutrum, nibh vel vulputate commodo, dolor dui porta odio, in congue lorem lorem eu felis Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu tempor est. Nam a maximus eros. Duis sit amet dui turpis. Nunc eleifend sed est eu placerat. Nullam vel dapibus mauris, quis pharetra dui. Sed arcu ex, rhoncus ut consectetur vitae, molestie a mi. Donec id lacinia enim. Morbi facilisis, massa sit amet sollicitudin rhoncus, orci nisl fringilla nisl, id lobortis ligula turpis eget purus. Vivamus nec arcu cursus tellus volutpat egestas id vel lacus'
     },
 ]
+
+export default blogData

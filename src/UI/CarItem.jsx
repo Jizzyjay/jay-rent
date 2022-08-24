@@ -32,7 +32,6 @@ const CartItem = (props) => {
                         <button className='w-50 car_item-btn car_btn-details'>
                             <Link to={`/cars/${carName}`}>Details</Link>
                         </button>
-
                 </div>
             </div>
         </Col>
