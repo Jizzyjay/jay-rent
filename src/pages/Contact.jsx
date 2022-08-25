@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { Container, Row, Col, Form, FormGroup, Input } from 'reactstrap'
 import Helmet from '../components/Helmet/Helmet'
 import CommonSection from '../UI/CommonSection'
+import '../styles/contact.css'
 
 const socialLinks = [
     {
@@ -11,11 +12,11 @@ const socialLinks = [
     },
     {
         url: "#",
-        icon: 'ri-twitter-line'
+        icon: 'ri-twitter-fill'
     },
     {
         url: "#",
-        icon: 'ri-github-line'
+        icon: 'ri-github-fill'
     },
     {
         url: "#",
@@ -71,7 +72,11 @@ const Contact = () => {
                                 <div className='d-flex align-items-center gap-4 mt-3'>
                                     {
                                         socialLinks.map((item, index) => (
-                                            <Link to={item.url} key={index}><i class={item.icon} /></Link>
+                                            <Link 
+                                                to={item.url} 
+                                                key={index}
+                                                className='social_link-icon'>
+                                                <i class={item.icon} /></Link>
                                         ))
                                     }
                                 </div>
