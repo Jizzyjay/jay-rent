@@ -19,7 +19,7 @@ const navLinks = [
     display: 'Car'
   },
   {
-    path: '/blogs',
+    path: '/blog',
     display: 'Blog'
   },
   {

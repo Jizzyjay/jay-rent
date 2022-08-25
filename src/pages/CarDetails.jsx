@@ -1,15 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import carData from '../asset/data/carData'
 import { Container, Col, Row } from 'reactstrap'
 import Helmet from '../components/Helmet/Helmet'
 import { Params, useParams } from 'react-router-dom'
 import BookingForm from '../UI/BookingForm'
+import PaymentMethod from '../UI/PaymentMethod'
 
 const CarDetails = () => {
 
     const { slug } = useParams();
 
-    const singleCarItem = carData.find((item) => item.carName === slug)
+    const singleCarItem = carData.find((item) => item.carName === slug);
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [singleCarItem])
+    
     return (
         <Helmet >
         title={singleCarItem.carName}
@@ -71,10 +76,16 @@ const CarDetails = () => {
                         </div>
                     </Col>
 
-                    <Col lg='7' className=''>
+                    <Col lg='7' className='mt-5'>
                         <div className='booking-info'>
                             <h5 className='mb-4 fw-bold'>Booking Information</h5>
                             <BookingForm />
+                        </div>
+                    </Col>
+                    <Col lg='5' className='mt-5'>
+                        <div className='payment-info mt-5'>
+                            <h5 className='mb-4 fw-bold'>Booking Information</h5>
+                            <PaymentMethod />
                         </div>
                     </Col>
                 </Row>
