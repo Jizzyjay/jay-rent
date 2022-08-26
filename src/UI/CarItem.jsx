@@ -5,7 +5,7 @@ import '../styles/car-item.css'
 
 const CartItem = (props) => {
 
-    const { id, imgUrl, carName, model, automatic, speed, price } = props.item
+    const { imgUrl, carName, model, automatic, speed, price } = props.item
     return (
         <Col lg='4' md='4' sm='6' className='mb-5'>
             <div className='car_item'>
@@ -26,11 +26,11 @@ const CartItem = (props) => {
                         </div>
 
                         <button className='w-50 car_item-btn car_btn-rent'>
-                            <Link to={`/cars/${carName}`}>Rent</Link>
+                            <Link to={`/car/${carName}`}>Rent</Link>
                         </button>
 
                         <button className='w-50 car_item-btn car_btn-details'>
-                            <Link to={`/cars/${carName}`}>Details</Link>
+                            <Link to={`/car/${carName}`}>Details</Link>
                         </button>
                 </div>
             </div>

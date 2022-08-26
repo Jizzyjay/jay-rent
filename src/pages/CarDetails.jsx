@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import carData from '../asset/data/carData'
 import { Container, Col, Row } from 'reactstrap'
 import Helmet from '../components/Helmet/Helmet'
-import { Params, useParams } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 import BookingForm from '../UI/BookingForm'
 import PaymentMethod from '../UI/PaymentMethod'
 

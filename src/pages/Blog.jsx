@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Col, Row } from 'reactstrap'
+import { Container, Row } from 'reactstrap'
 import Helmet from '../components/Helmet/Helmet'
 import CommonSection from '../UI/CommonSection'
 import BlogList from '../UI/BlogList'

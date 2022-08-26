@@ -5,12 +5,12 @@ import serviceData from '../asset/data/serviceData'
 
 const ServiceList = () => {
     return (
-        <div>
+        <>
             {
                 serviceData?.map((item) => (
                     <ServiceItem item={item} key={item.id} />
                 ))}
-        </div>
+        </>
     )
 }
 
