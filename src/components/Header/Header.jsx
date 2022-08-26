@@ -110,7 +110,6 @@ const Header = () => {
         </Container>
       </div>
 
-
       <div className='main_navbar'>
         <Container>
           <div className='navigation_wrapper d-flex align-items-center justify-content-between'>
