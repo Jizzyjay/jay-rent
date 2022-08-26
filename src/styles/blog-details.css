@@ -7,8 +7,8 @@ blockquote {
 }
 
 .single_comment img {
-    width: 70%;
-    height: 70%;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     border: 2px solid #000d6b;
     object-fit: cover;
@@ -66,6 +66,5 @@ blockquote {
 
     .blog_details p {
         font-size: .8rem;
-        line-height: 1.4rem;
     }
 }

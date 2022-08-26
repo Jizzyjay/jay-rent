@@ -23,7 +23,7 @@ const BlogDetails = () => {
           <Row>
             <Col lg='8' md='8'>
               <div className='blog_details'>
-                <img src={blog.imgUrl} alt=''/>
+                <img src={blog.imgUrl} alt='' className='w-75'/>
                 <h2 className='section_title mt-4'>{blog.title}</h2>
 
                 <div className='blog_plublisher d-flex align-items-center gap-4 mb-4'>
@@ -46,8 +46,10 @@ const BlogDetails = () => {
 
               <div className='comment_list mt-5'>
                 <h4 className='mb-5'>3 Comments</h4>
+                
                 <div className='single_comment d-flex gap-3'>
-                <img src={CommentImg} alt='' />
+                <img src={CommentImg} alt=''  />
+
                   <div className='comment_content'>
                     <h6 className='fw-bold'>David Visa</h6>
                     <p className='section_description mb-0'>14 July, 2022</p>

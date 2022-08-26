@@ -6,13 +6,13 @@ import blogData from '../asset/data/blogData'
 
 const BlogList = () => {
     return (
-        <div>
+        <>
             {
                 blogData.map(( item ) => (
                     <BlogItem item={item} key={item.id} />
                 ))
             }
-        </div>
+        </>
     )
 }
 
